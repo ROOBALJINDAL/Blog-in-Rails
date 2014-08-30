@@ -1,0 +1,7 @@
+Rails.application.config.assets.precompile += %w( bootstrap.min.css )
+Rails.application.config.assets.precompile += %w( jumbotron.css )
+Rails.application.config.assets.precompile += %w( application.js )
+Rails.application.config.assets.precompile += %w( jquery.min.js )
+Rails.application.config.assets.precompile += %w( bootstrap.min.js )
+Rails.application.config.assets.precompile += %w( ie-emulation-modes-warning.js )
+Rails.application.config.assets.precompile += %w( ie10-viewport-bug-workaround.js )
